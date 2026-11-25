@@ -1,1 +1,7 @@
 rosrun clover_simulation aruco_gen --single-model --source-world=$(catkin_find clover_simulation resources/worlds/clover.world) $(catkin_find aruco_pose map/my_map.txt) > $(catkin_find clover_simulation resources/worlds)/clover_aruco.world
+
+python3 /полный/путь/к/aruco_gen --single-model --source-world=$(catkin_find clover_simulation resources/worlds/clover.world) $(catkin_find aruco_pose map/my_map.txt) > ~/my_aruco.world
+
+
+
+find ~/catkin_ws/src/clover -iname "*aruco*gen*"
