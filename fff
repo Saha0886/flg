@@ -1,0 +1,1 @@
+rosrun clover_simulation aruco_gen --single-model --source-world=$(catkin_find clover_simulation resources/worlds/clover.world) $(catkin_find aruco_pose map/my_map.txt) > $(catkin_find clover_simulation resources/worlds)/clover_aruco.world
